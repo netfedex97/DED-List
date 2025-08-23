@@ -64,8 +64,8 @@ export default {
                         <h1 class="copy-name">  
                             {{ level.name }}
                         </h1>
-                        <Copy v-if="!copied" @click="copyURL('https://1dot0list.pages.dev/#/level/' + level.path); copied = true"></Copy>
-                        <Copied v-if="copied" @click="copyURL('https://1dot0list.pages.dev/#/level/' + level.path); copied = true"></Copied>
+                        <Copy v-if="!copied" @click="copyURL('https://deadextremes.pages.dev/#/level/' + level.path); copied = true"></Copy>
+                        <Copied v-if="copied" @click="copyURL('https://deadextremes.pages.dev/#/level/' + level.path); copied = true"></Copied>
                     </div>
                     <LevelAuthors :creators="level.creators" :verifier="level.verifier" :enjoyment="level.enjoyment"></LevelAuthors>
                     <div v-if="level.showcase" class="tabs">
@@ -191,20 +191,6 @@ export default {
                         </p>
                         <p>
                             Cheat Indicator is required for all completions via Geode, MegaHack, or iCreate Pro. If Cheat Indictor is not available, you are required to use Show Info Label.
-                        </p>
-                    </div>
-                    <hr class="divider">
-                    <div class="right-text">
-                        <p>
-                            For your convenience, The Dead Extreme Demon List caches the data for the list in your browser.
-                        </p>
-                        <p>
-                            By using the site, you agree to the storage of this data in your browser. 
-                            You can disable this in your browser's settings (turn off local storage), however this will cause 
-                            the site to load very slowly and is not recommended.
-                        </p>
-                        <p>
-                            No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/netfedex97/DED-List">view the site's source code here</a></u>.
                         </p>
                     </div>
                 </div>
