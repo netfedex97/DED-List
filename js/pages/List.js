@@ -171,15 +171,7 @@ export default {
                             </li>
                         </ol>
                     </template>
-
                     <hr class="divider">
-
-                    <h3>Tags</h3>
-                    <p class="director" style="cursor:pointer;" @click="search('⭐')">⭐ Rated</p>
-                    <p class="director" style="cursor:pointer;" @click="search('🔥')">🔥 Hall of Fame</p>
-
-                    <hr class="divider">
-
                     <h3>Record Submission Requirements</h3>
                     <div class="right-text">
                         <p>
@@ -202,25 +194,9 @@ export default {
                         </p>
                     </div>
                     <hr class="divider">
-                    <h3>Level Submission Requirements</h3>
                     <div class="right-text">
                         <p>
-                            You must use only objects from the 1.0 update. This does not include features, so scaling or using color groups is allowed.
-                        </p>
-                        <p>
-                            The level must be at least 30 seconds in length (medium, long, or XL length).
-                        </p>
-                        <p>
-                            Using any 'hide', 'passable', or 'notouch' objects is not allowed. Every other extra object option is allowed.
-                        </p>
-                        <p>
-                            Even though the decoration and gameplay standard in this server is minimal, the standard still exists and levels that do not meet the standard will not be accepted.
-                        </p>
-                    </div>
-                    <hr class="divider">
-                    <div class="right-text">
-                        <p>
-                            For your convenience, The 1.0 List caches the data for the list in your browser.
+                            For your convenience, The Dead Extreme Demon List caches the data for the list in your browser.
                         </p>
                         <p>
                             By using the site, you agree to the storage of this data in your browser. 
@@ -228,7 +204,7 @@ export default {
                             the site to load very slowly and is not recommended.
                         </p>
                         <p>
-                            No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/sphericle/the-1.0-list/">view the site's source code here</a></u>.
+                            No data specific to you is collected or shared, and you can <u><a target="_blank" href="https://github.com/netfedex97/DED-List">view the site's source code here</a></u>.
                         </p>
                     </div>
                 </div>
